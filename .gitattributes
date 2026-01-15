@@ -1,2 +1,2 @@
 # Exclude the Python version from the GitHub language statistics
-portable/* linguist-vendored
+nonZsh/* linguist-vendored

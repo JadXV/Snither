@@ -1,4 +1,5 @@
 <h1 align="center">🐍 Snither</h1>
+<p align="center"><sub>/ˈsnaɪ-ðər/</sub></p>
 
 <p align="center">
   <strong>Slither.io-style battle royale with AI, classic snake, and everything in between - right in your terminal.</strong>
@@ -9,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/gameplay.gif" width="350" alt="Snither Gameplay">
+  <img src="assets/gameplay.gif" width="500" alt="Snither Gameplay">
 </p>
 
 ## ⚡ Instant Play
@@ -50,12 +51,22 @@ Snither is written **100% in pure ZSH** - no Python, no Node, no compiled binari
 - ZSH shell (macOS default, or install on Linux)
 - Unicode-capable terminal
 
+## 📦 Manual Install
+
+Want to keep it locally? Download, make it executable, and run:
+
+```bash
+curl -O https://raw.githubusercontent.com/JadXV/snither/main/snither.sh
+chmod +x snither.sh
+./snither.sh
+```
+
 ## Windows or No ZSH? No Problem
 
 On Windows or a system without ZSH, use the Python version:
 
 ```bash
-python portable/pythonVersion.py
+python nonZsh/pythonVersion.py
 ```
 
 ## License
